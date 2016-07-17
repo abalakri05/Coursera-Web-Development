@@ -1,0 +1,62 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.p1 {
+  position: relative;
+  width: 95%;
+  height: 200px;
+  border: 1px solid black;
+  #margin: 0px 10px 10px 10px;
+  margin: 10px;
+  padding: 50px 10px 10px 10px;
+  background-color: grey;
+  }
+
+.p2 {
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  background-color: blue;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+  .large {
+    float: left;
+  } 
+  .large {
+  width: 31.7%;
+  }
+}
+  
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .medium, .medium1 {
+    float: left;
+}
+  .medium {
+  width: 48%;
+  }
+
+  .medium1 {
+  width: 99%;
+  }
+}
